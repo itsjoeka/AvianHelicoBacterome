@@ -4,5 +4,5 @@ WAVDeSc is a matlab tool for denoising single-cell RNA-seq. WAVDesC leverages bi
 
 ## Subheader
 The pipeline depends on the Wavelet Toolbox.
-- Check if it is installed:
+- Check if it is installed:<\br>
   `licence('test', 'Wavelet_Toolbox')`
