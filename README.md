@@ -1,5 +1,8 @@
 # WAVDeSc: Wavelet Denoising for single-cell RNA-seq Data
 
-WAVDeSc is a matlab toolkit for denoising single-cell RNA-seq. WAVDesC leverages biorthogonal wavelet transforms to decompose scRNA-seq data into different frequency components and applies Bayesian thresholding to remove noise.
+WAVDeSc is a matlab tool for denoising single-cell RNA-seq. WAVDesC leverages biorthogonal wavelet transforms to decompose scRNA-seq data into different frequency components and applies Bayesian thresholding to remove noise. The pipeline comprises three main phases: Signal Decomposition, Thresholding, and Signal Reconstruction aimed at prducing a denoised output
 
-## Background
+## Subheader
+The pipeline depends on the Wavelet Toolbox.
+- Check if it is installed:
+  `licence('test', 'Wavelet_Toolbox')`
